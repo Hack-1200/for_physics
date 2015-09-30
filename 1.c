@@ -3,7 +3,7 @@
 #include <math.h>
 //наша функция	
 float f(float x){
-  return x*x;
+  return x*x+2*x+3-sin(x);
 }
 
 int main(){
